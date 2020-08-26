@@ -25,5 +25,5 @@ class TicTacToe
     !position_taken?(index)
   end
   
-  def 
+  def turn  
 end
