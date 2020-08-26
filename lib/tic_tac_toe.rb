@@ -87,7 +87,7 @@ class TicTacToe
     index = []
     index = won?
     if index == false 
-      return nil
+      nil
     else 
       if @board[index[0]] == "O"
         return "O"
