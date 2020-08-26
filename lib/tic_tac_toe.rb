@@ -26,5 +26,5 @@ class TicTacToe
   end
   
   def turn  
-    puts ""
+    puts "Choose a position between 1-9."
 end
