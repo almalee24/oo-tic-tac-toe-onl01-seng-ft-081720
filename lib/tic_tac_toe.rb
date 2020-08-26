@@ -61,7 +61,7 @@ class TicTacToe
   
   def won 
     WIN_COMBINATIONS.each do |winner_combo|
-      index_0 = winner_combo[0]
+      position_1 = @board[winner_combo[0]] 
       index_1 = winner_combo[1]
       index_2 = winner_combo[2]
 end
