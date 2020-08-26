@@ -90,9 +90,9 @@ class TicTacToe
       nil
     else 
       if @board[index[0]] == "O"
-        return "O"
+        "O"
       else
-        return "X"
+        "X"
       end 
     end
   end
