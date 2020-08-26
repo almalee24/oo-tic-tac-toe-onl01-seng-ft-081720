@@ -61,7 +61,7 @@ class TicTacToe
     return player 
   end
   
-  def won 
+  def won?
     WIN_COMBINATIONS.each{|winner_combo|
       position_1 = @board[winner_combo[0]] 
       position_2 = @board[winner_combo[1]] 
