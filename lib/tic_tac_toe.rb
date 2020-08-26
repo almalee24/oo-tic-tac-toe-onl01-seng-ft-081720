@@ -29,6 +29,7 @@ class TicTacToe
     puts "Choose a position between 1-9."
     input = gets.chomp 
     index = input_to_index(input)
-    if position_taken(index)
+    if valid_move?(index)
+      
       
 end
