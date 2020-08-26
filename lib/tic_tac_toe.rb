@@ -62,6 +62,9 @@ class TicTacToe
   def won 
     WIN_COMBINATIONS.each do |winner_combo|
       position_1 = @board[winner_combo[0]] 
-      index_1 = winner_combo[1]
-      index_2 = winner_combo[2]
+      position_2 = @board[winner_combo[1]] 
+      position_3 = @board[winner_combo[2]] 
+      
+      if position_1 == "X" && position_2 == "X" && position_3 == "X"
+        
 end
