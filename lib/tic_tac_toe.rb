@@ -75,4 +75,8 @@ class TicTacToe
     }
     return false
   end
+  
+  def full?
+    @board[index].nil? || @board[index] == " " ? false : true
+  end 
 end
