@@ -56,6 +56,6 @@ class TicTacToe
     else 
       player = "O"
     end
-    player 
+    return player 
   end
 end
