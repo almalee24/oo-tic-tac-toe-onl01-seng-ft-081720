@@ -53,11 +53,7 @@ class TicTacToe
   
   def current_player
     num_turns = turn_count
-    if num_turns % 2 == 0 
-      player = "X"
-    else 
-      player = "O"
-    end
+    num_turns % 2 == 0 ? player = "X" : player = "O"
     return player 
   end
   
@@ -85,10 +81,7 @@ class TicTacToe
   end
   
   def over? 
-    won? || draw? ? true
-    else 
-      return false
-    end
+    won? || draw? ? true : false
   end
   
   def winner 
