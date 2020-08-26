@@ -61,4 +61,5 @@ class TicTacToe
   
   def won 
     WIN_COMBINATIONS.each do |winner_combo|
+      index
 end
