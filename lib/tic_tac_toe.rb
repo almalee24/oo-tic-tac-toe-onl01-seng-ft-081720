@@ -93,4 +93,5 @@ class TicTacToe
     if index == false 
       return nil
     else 
+      if @board[index[]]
 end
