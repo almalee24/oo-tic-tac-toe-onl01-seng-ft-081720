@@ -90,5 +90,7 @@ class TicTacToe
   
   def winner 
     index = [won?]
-    
+    if index == false 
+      return nil
+    else 
 end
