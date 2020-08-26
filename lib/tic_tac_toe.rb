@@ -36,5 +36,6 @@ class TicTacToe
       display_board
     else 
       puts "Choose a postiong between 1-9"
-    end      
+    end 
+  end
 end
