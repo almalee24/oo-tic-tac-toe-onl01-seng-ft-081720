@@ -69,7 +69,7 @@ class TicTacToe
       
       if position_1 == "X" && position_2 == "X" && position_3 == "X"
         return winner_combo
-      elsif position_1 == "0" && position_2 == "0" && position_3 == "0"
+      elsif position_1 == "O" && position_2 == "O" && position_3 == "O"
         return winner_combo
       end
     }
@@ -102,8 +102,8 @@ class TicTacToe
     if index == false 
       return nil
     else 
-      if @board[index[0]] == "0"
-        return "0"
+      if @board[index[0]] == "O"
+        return "O"
       else
         return "X"
       end 
