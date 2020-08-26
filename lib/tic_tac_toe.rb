@@ -60,7 +60,7 @@ class TicTacToe
   end
   
   def won 
-    WIN_COMBINATIONS.each do |winner_combo|
+    WIN_COMBINATIONS.each{|winner_combo|
       position_1 = @board[winner_combo[0]] 
       position_2 = @board[winner_combo[1]] 
       position_3 = @board[winner_combo[2]] 
@@ -70,6 +70,6 @@ class TicTacToe
       elsif position_1 == "0" && position_2 == "0" && position_3 == "0"
         return winner_combo
       end
-    end
+    }
     return false
 end
