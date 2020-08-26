@@ -43,7 +43,7 @@ class TicTacToe
   
   def turn_count 
     turn = 0 
-    @board.each{|index| index == "X" || index == "O" ? turn += 1} 
+    @board.each{|index| index == "X" || index == "O" ? turn += 1 : } 
     turn
   end
   
