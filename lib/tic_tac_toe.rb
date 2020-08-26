@@ -46,5 +46,6 @@ class TicTacToe
         turn += 1
       end 
     end 
-    board
+    turn
+  end
 end
